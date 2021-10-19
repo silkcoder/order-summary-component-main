@@ -11,14 +11,16 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    min-height: 100vh;
     font-size: 16px;
     font-family: 'Red Hat Display', sans-serif;
+    background-size: contain;
 }
 
 .container {
     max-width: 450px;
     min-width: 200px;
-    margin: 5.5rem 1rem;
+    margin: 4.8rem 1rem;
 }
 
 .content {
@@ -77,6 +79,7 @@ button {
     margin-bottom: 32px;
     cursor: pointer;
     width: 100%;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 button:hover {
